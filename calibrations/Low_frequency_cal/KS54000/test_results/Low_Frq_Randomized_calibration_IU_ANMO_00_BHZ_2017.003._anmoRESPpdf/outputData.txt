@@ -1,0 +1,43 @@
+Initial poles: 
+-0.0048 (1308.88787 s);   -0.07394 (84.97612 s)
+
+
+Fit poles: 
+-0.0048 (1308.88787 s);   -0.07477 (84.03742 s)
+
+
+
+
+
+
+Residuals:
+Initial (nom. resp curve): 429.24253636244873
+Best fit: 352.8896537696298
+
+
+Iteration count from solver: 8
+Input filenames,  with SEED and RESP files paired as appropriate:
+IU_ANMO_  _BC0
+IU_ANMO_00_BHZ
+RESP.IU.ANMO.00.BHZ
+Residuals weighting:
+    Amplitude: 1906.8706433328211
+    Phase: 0.6433335684533169
+
+Time of report generation:
+2017.249.20:19:04
+Data start time:
+2017.003.21:23:59
+Data end time:
+2017.004.05:23:31
+
+
+POLE VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-0.0048  -0.0048  +0       -0.0048  -0       
++0       +0       +0       +0       +0       
+-0.0739  -0.0748  +0.0008  -0.0744  -1.1047  
++0       +0       +0       +0       +0       
+
+
+
