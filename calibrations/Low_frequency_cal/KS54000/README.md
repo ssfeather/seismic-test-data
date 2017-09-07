@@ -9,21 +9,14 @@ oldASL_method/
 BC0.512.seed
 ... 20 sps calibration input
 
-Low_Frq_Randomized_calibration_IU_MAJO_00_BHZ_2017.213_MAJOResp.pdf
-... output of calibration processing using the MAJO/00 response file as input
+Low_Frq_Randomized_calibration_IU_ANMO_00_BHZ_2017.003.pdf
+... Output from sensor test suite using nrl response.
 
-Low_Frq_Randomized_calibration_IU_MAJO_00_BHZ_2017.213_nrlResp.pdf
-... output of calibration processing using the nrl response file as input
-
-RESP.IU.MAJO.00.BHZ
-... MAJO response file
-
-STS-1_Q330HR_BH_20
+KS54000_Q330HR_BH_40
 ... NRL response file
 
 test_results/
 ... other plots from the Sensor Test Suite
-
 
 ## Processing steps
 1. User loads data.  The input channel (BC0.512.seed) is loaded into the top.  No response information is needed.  The output channel is loaded in the bottom with the response information.
