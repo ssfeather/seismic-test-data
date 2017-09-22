@@ -1,0 +1,59 @@
+Initial poles: 
+-0.00773 (812.52954 s)
+-0.01265 + 0.01234i;  -0.01265 - 0.01234i (355.59736 s)
+-0.01902 (330.35318 s)
+
+
+Fit poles: 
+-0.01173 (535.62645 s)
+-0.013 - 0.01373i;  -0.013 + 0.01373i (332.40549 s)
+-0.0254 (247.40703 s)
+
+
+
+Initial zeros: 
+-0.01357 (462.98958 s)
+-0.01357 (462.98958 s);   
+Fit zeros: 
+-0.01949 (322.43409 s)
+-0.01949 (322.43409 s);   
+
+Residuals:
+Initial (nom. resp curve): 2767.3700765426265
+Best fit: 1083.5472836511426
+
+
+Iteration count from solver: 23
+Input filenames,  with SEED and RESP files paired as appropriate:
+IU_MAJO_  _BC0
+IU_MAJO_00_BHZ
+RESP.IU.MAJO.00.BHZ
+Residuals weighting:
+    Amplitude: 15058.198051425337
+    Phase: 0.4308749882176093
+
+Time of report generation:
+2017.250.15:25:20
+Data start time:
+2017.213.23:34:28
+Data end time:
+2017.214.07:38:03
+
+
+POLE VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-0.0077  -0.0117  +0.004   -0.0097  -34.0791 
++0       +0       +0       +0       +0       
+-0.0126  -0.013   +0.0003  -0.0128  -2.687   
++0.0123  +0.0137  -0.0014  +0.013   -10.0985 
+-0.019   -0.0254  +0.0064  -0.0222  -25.1083 
++0       +0       +0       +0       +0       
+ZERO VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-0.0136  -0.0195  +0.0059  -0.0165  -30.3582 
++0       +0       +0       +0       +0       
+-0.0136  -0.0195  +0.0059  -0.0165  -30.3582 
++0       +0       +0       +0       +0       
+
+
+
