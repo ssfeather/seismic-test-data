@@ -1,0 +1,29 @@
+Initial poles: 
+
+
+
+
+
+Residuals:
+Initial (nom. resp curve): 8365.323066557412
+
+
+
+Iteration count from solver: 4
+Input filenames,  with SEED and RESP files paired as appropriate:
+IU_TUC_CB_BC6
+IU_TUC_60_EHZ
+STS-6_Q330HR_BH_40_nocoil
+Residuals weighting:
+    Amplitude: 14261.774968711406
+    Phase: 0.46380072072354617
+
+Time of report generation:
+2017.268.19:10:53
+Data start time:
+2017.160.16:14:33
+Data end time:
+2017.160.16:28:32
+
+
+

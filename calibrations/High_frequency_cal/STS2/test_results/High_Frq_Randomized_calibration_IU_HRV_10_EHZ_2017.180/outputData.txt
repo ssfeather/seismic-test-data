@@ -1,0 +1,61 @@
+Initial poles: 
+-15.64 (0.40174 s);   -255.097 (0.02463 s)
+-374.8 (0.01676 s)
+-97.34 - 400.7i;  -97.34 + 400.7i (0.01524 s)
+
+
+Fit poles: 
+-55.67984 (0.11284 s);   -203.31908 (0.0309 s)
+-209.42541 (0.03 s)
+-77.30073 - 387.02796i;  -77.30073 + 387.02796i (0.01592 s)
+
+
+
+Initial zeros: 
+-15.15 (0.41473 s)
+-176.6 (0.03558 s);   
+Fit zeros: 
+-54.40106 (0.1155 s)
+-106.91529 (0.05877 s);   
+
+Residuals:
+Initial (nom. resp curve): 263.31529319026475
+Best fit: 112.90359515939117
+
+
+Iteration count from solver: 25
+Input filenames,  with SEED and RESP files paired as appropriate:
+IU_HRV_CB_BC1
+IU_HRV_10_EHZ
+STS-2g3HG_Q330HR_BH_40
+Residuals weighting:
+    Amplitude: 319.7911026998516
+    Phase: 0.3196250980579124
+
+Time of report generation:
+2017.268.17:06:44
+Data start time:
+2017.180.16:48:20
+Data end time:
+2017.180.17:03:02
+
+
+POLE VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-15.64   -55.6798 +40.0398 -35.6599 -71.9108 
++0       +0       +0       +0       +0       
+-255.097 -203.3191-51.7779 -229.208 +25.4663 
++0       +0       +0       +0       +0       
+-374.8   -209.4254-165.3746-292.1127+78.9659 
++0       +0       +0       +0       +0       
+-97.34   -77.3007 -20.0393 -87.3204 +25.9238 
+-400.7   -387.028 -13.672  -393.864 +3.5326  
+ZERO VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-15.15   -54.4011 +39.2511 -34.7755 -72.1513 
++0       +0       +0       +0       +0       
+-176.6   -106.9153-69.6847 -141.7576+65.1775 
++0       +0       +0       +0       +0       
+
+
+
