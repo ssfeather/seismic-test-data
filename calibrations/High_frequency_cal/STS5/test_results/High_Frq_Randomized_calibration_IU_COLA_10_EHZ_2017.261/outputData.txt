@@ -1,0 +1,57 @@
+Initial poles: 
+-16.047 (0.39155 s);   -16.047 (0.39155 s)
+-339.3 + 115.6i;  -339.3 - 115.6i (0.01753 s)
+
+
+Fit poles: 
+-7.00435 (0.89704 s);   -7.00435 (0.89704 s)
+-458.40248 - 60.74799i;  -458.40248 + 60.74799i (0.01359 s)
+
+
+
+Initial zeros: 
+-15.708 (0.4 s)
+-15.708 (0.4 s);   
+Fit zeros: 
+-6.90327 (0.91018 s)
+-6.90327 (0.91018 s);   
+
+Residuals:
+Initial (nom. resp curve): 1161.9607059074615
+Best fit: 341.2497644058233
+
+
+Iteration count from solver: 19
+Input filenames,  with SEED and RESP files paired as appropriate:
+IU_COLA_CB_BC1
+IU_COLA_10_EHZ
+STS-5A_Q330HR_BH_40_nocoil
+Residuals weighting:
+    Amplitude: 9716.163816854092
+    Phase: 0.437881558258781
+
+Time of report generation:
+2017.268.15:29:52
+Data start time:
+2017.261.18:57:21
+Data end time:
+2017.261.19:11:42
+
+
+POLE VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-16.047  -7.0044  -9.0426  -11.5257 +129.1004
++0       +0       +0       +0       +0       
+-16.047  -7.0044  -9.0426  -11.5257 +129.1004
++0       +0       +0       +0       +0       
+-339.3   -458.4025+119.1025-398.8512-25.9821 
++115.6   +60.748  +54.852  +88.174  +90.2944 
+ZERO VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-15.708  -6.9033  -8.8047  -11.3056 +127.5445
++0       +0       +0       +0       +0       
+-15.708  -6.9033  -8.8047  -11.3056 +127.5445
++0       +0       +0       +0       +0       
+
+
+
