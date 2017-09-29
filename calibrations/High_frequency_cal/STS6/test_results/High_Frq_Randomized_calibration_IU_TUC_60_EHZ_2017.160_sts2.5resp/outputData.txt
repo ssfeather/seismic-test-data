@@ -1,0 +1,51 @@
+Initial poles: 
+-9.73894 (0.64516 s)
+-219.911 + 138.23i;  -219.911 - 138.23i (0.02419 s)
+
+
+Fit poles: 
+-9.258 (0.67868 s)
+-318.47325 - 121.61612i;  -318.47325 + 121.61612i (0.01843 s)
+
+
+
+Initial zeros: 
+-9.42478 (0.66667 s);   
+Fit zeros: 
+-8.99804 (0.69828 s);   
+
+Residuals:
+Initial (nom. resp curve): 2014.639157004783
+Best fit: 319.5886970501636
+
+
+Iteration count from solver: 13
+Input filenames,  with SEED and RESP files paired as appropriate:
+IU_TUC_CB_BC6
+IU_TUC_60_EHZ
+RESP.IU.TUC.10.BHZ
+Residuals weighting:
+    Amplitude: 14261.774968711406
+    Phase: 0.46380072072354617
+
+Time of report generation:
+2017.268.21:16:58
+Data start time:
+2017.160.16:14:33
+Data end time:
+2017.160.16:28:32
+
+
+POLE VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-9.7389  -9.258   -0.4809  -9.4985  +5.1949  
++0       +0       +0       +0       +0       
+-219.911 -318.4733+98.5623 -269.1921-30.9484 
++138.23  +121.6161+16.6139 +129.9231+13.6609 
+ZERO VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-9.4248  -8.998   -0.4267  -9.2114  +4.7425  
++0       +0       +0       +0       +0       
+
+
+
