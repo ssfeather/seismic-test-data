@@ -25,7 +25,7 @@ def rms(x):
 def create_rotation_examples(N,E,angles):
   for angle in angles
     r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,angle)
-    dir="%03d" % (angle)
+    dir="rotation/%03d" % (angle)
     try:
       os.mkdir(dir)
     except:
@@ -35,9 +35,30 @@ def create_rotation_examples(N,E,angles):
     tr_n.data=r
     tr_e=E[0].copy()
     tr_e.data=t
-    tr_n.write("%s/%s" % (dir,tr_n.stats.id),format='MSEED')
-    tr_n.write("%s/%s" % (dir,tr_n.stats.id),fortmat='MSEED')
-    
+    tr_n.write("rotation/%s/%s" % (dir,tr_n.stats.id),format='MSEED')
+    tr_e.write("rotation/%s/%s" % (dir,tr_e.stats.id),fortmat='MSEED')
+
+def create_orthoganality_examples(N,E,angles):
+  """Create examples where the second horizontal component is rotated out of orthoganality
+  by the amount of degrees specified. The angle is the angle difference between the two
+  components holding component 1 fixed."""
+  for angle in angles
+    rot_angle=angle-90.
+    if rot_angle<0.:
+      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,360.-rot_angle)
+    else:
+      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,rot_angle)
+    dir="orthogalality/%03d" % (angle)
+    try:
+      os.mkdir(dir)
+    except:
+      # Directory exists do nothing
+      pass
+    tr_e=E[0].copy()
+    tr_e.data=t
+    N[0].write("orthogonality/%s/%s" % (dir,N[0].stats.id),format='MSEED')
+    tr_e.write("orthogonality/%s/%s" % (dir,tr_n.stats.id),fortmat='MSEED')    
+
 def check_rotation(N,E,angles):
   """ Check rotation angles by rotating the partially rotated the rest of the way to 360 
   since obspy doesn't do the negative and compare to original values.  Should be close to 
@@ -70,3 +91,6 @@ if __name__=='__main__':
   simple_rotation_angles=np.array([2.,5.,20.,90.,110.,180.,200.,270.,290.,355.,358.])
   create_rotation_examples(N,E,simple_rotation_angles)
   check_rotation_examples(N,E,simple_rotation_angles)
+  
+  internal_angles=([60.,80.,85.,87.,88.,89.,89.5,90.5,91.,92.,93.,95.,100.,120.,270.])
+  create_orthoganality_examples(N,E,internal_angles)
