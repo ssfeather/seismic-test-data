@@ -96,3 +96,11 @@ if __name__=='__main__':
   
   internal_angles=([60.,80.,85.,87.,88.,89.,89.5,90.5,91.,92.,93.,95.,100.,120.,270.])
   create_orthoganality_examples(N,E,internal_angles)
+
+  # High Noise Examples
+  N=read('IU.FUNA.00.BH1')
+  E=read('IU.FUNA.00.BH2')
+  create_rotation_examples(N,E,simple_rotation_angles)
+  #check_rotation_examples(N,E,simple_rotation_angles)
+  
+  create_orthoganality_examples(N,E,internal_angles)

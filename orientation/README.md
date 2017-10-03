@@ -6,7 +6,12 @@ The original data files are:
   * _IU.ANMO.10.BH1_
   * _IU.ANMO.10.BH2_
   * _IU.ANMO.10.BHZ_
-
+  
+The original data files used for the high noise examples are from IU.FUNA from 2017-09-19:
+  * _IU.FUNA.00.BH1_
+  * _IU.FUNA.00.BH2_
+  * _IU.FUNA.00.BHZ_
+  
 ## Rotation (_/rotation_)
 
 These examples show the data rotated clockwise by the specified number of degrees.  Each 
@@ -29,7 +34,11 @@ These examples use the clockwise angle between the BH1 (held constant) and the B
 examples are designed to test both resolution and a wide variety of different cases of non-
 orthogonal components.
 * 060	* 080	* 085	* 087	* 088	* 089	* 090	* 091	* 092	* 093	* 095	* 100	* 120	* 270
+
+_Note: we did not create any cases of non-orthogonality to the vertical axis, but this would 
+be possible._
   
 ## build_orientation_tests.py
 
-This program created the data examples in these tests.
+This program created the data examples in these tests.  The testing of the data for sanity
+has not been fully done.
