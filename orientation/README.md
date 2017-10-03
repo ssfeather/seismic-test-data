@@ -12,7 +12,7 @@ The original data files used for the high noise examples are from IU.FUNA from 2
   * _IU.FUNA.00.BH2_
   * _IU.FUNA.00.BHZ_
   
-## Rotation (_/rotation_)
+## Rotation (/rotation)
 
 These examples show the data rotated clockwise by the specified number of degrees.  Each 
 set is in its own directory indicated by the number of degrees that the signal was rotated.
@@ -28,12 +28,25 @@ set is in its own directory indicated by the number of degrees that the signal w
   * _355_
   * _358_
   
-## Orthogonality (_/orthogonality_)
+## Orthogonality (/orthogonality)
 
 These examples use the clockwise angle between the BH1 (held constant) and the BH2.  The
 examples are designed to test both resolution and a wide variety of different cases of non-
 orthogonal components.
-* 060	* 080	* 085	* 087	* 088	* 089	* 090	* 091	* 092	* 093	* 095	* 100	* 120	* 270
+  * _060_	
+  * _080_	
+  * _085_	
+  * _087_	
+  * _088_	
+  * _089_	
+  * _090_	
+  * _091_	
+  * _092_	
+  * _093_	
+  * _095_	
+  * _100_	
+  * _120_	
+  * _270_
 
 _Note: we did not create any cases of non-orthogonality to the vertical axis, but this would 
 be possible._
