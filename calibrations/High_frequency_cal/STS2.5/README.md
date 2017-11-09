@@ -7,8 +7,13 @@ HF_CCM_10_EHZ.512.cut.seed
 HF_CCM_CB_BC1.512.cut.seed
 ... 200 sps calibration input, trimmed 
 
+High_Frq_Randomized_calibration_IU_CCM_10_EHZ_2017.151_CCMresp.pdf
 ... output of calibration processing using the CCM response file as input.
 
+High_Frq_Randomized_calibration_IU_CCM_10_EHZ_2017.151_CCMresp_nocoil.pdf
+... output of calibration processing using the CCM response file with coil removed as input.
+
+High_Frq_Randomized_calibration_IU_CCM_10_EHZ_2017.151.pdf
 ... output of calibration processing using the nrl response file as input.
 
 RESP.IU.CCM.00.BHZ
@@ -17,8 +22,6 @@ RESP.IU.CCM.00.BHZ
 STS-2.5_Q330HR_BH_40_nocoil
 ... NRL response file
 
-test_results/
-... other plots from the Sensor Test Suite
 
 ## Processing steps
 1. User loads data.  The input channel (\*CB_BC1.512.seed) is loaded into the top.  No response information is needed.  The output channel is loaded in the bottom with the response information.
