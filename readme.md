@@ -26,7 +26,8 @@ that contains multiple test cases for that category such as calibration data.
   * Low Station Noise
   * High Station Noise
   * Transient Noise
-* Component Rotation (two sensor)
+* Orientation
+  * Component Rotation (two sensor)
   * Components rotated by known angle 
     * Low-Noise
     * High-Noise
