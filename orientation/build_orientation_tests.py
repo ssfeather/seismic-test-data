@@ -25,7 +25,13 @@ def rms(x):
   
 def create_rotation_examples(N,E,angles):
   for angle in angles:
-    r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,angle)
+    # We add 180 because the angle is back azimuth.  The rotation does not allow
+    # negative angles so we continue on around the other way.
+    rangle=angle+180
+    if angle>360.:
+      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,rangle-360.)
+    else:
+      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,rangle)
     dir="rotation/%03d" % (angle)
     try:
       os.mkdir(dir)
@@ -44,10 +50,14 @@ def create_orthoganality_examples(N,E,angles):
   by the amount of degrees specified. The angle is the angle difference between the two
   components holding component 1 fixed."""
   for angle in angles:
-    rot_angle=angle-90.
+    # We add 180 because the angle is back azimuth.  The rotation does not allow
+    # negative angles so we continue on around the other way.  
+    rot_angle=180+angle-90.
 
     if rot_angle<0.:
       r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,(360.+rot_angle))
+    elif rot_angel>360.:
+      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,(rot_angle-360))
     else:
       r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,rot_angle)
     dir="orthogonality/%03d" % (angle)
