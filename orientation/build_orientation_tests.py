@@ -27,11 +27,12 @@ def create_rotation_examples(N,E,angles):
   for angle in angles:
     # We add 180 because the angle is back azimuth.  The rotation does not allow
     # negative angles so we continue on around the other way.
-    rangle=angle+180
-    if angle>360.:
-      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,rangle-360.)
+    if angle<180.:
+      rangle=angle+180.
     else:
-      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,rangle)
+      rangle=angle-180.
+  
+    r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,rangle)
     dir="rotation/%03d" % (angle)
     try:
       os.mkdir(dir)
@@ -56,8 +57,8 @@ def create_orthoganality_examples(N,E,angles):
 
     if rot_angle<0.:
       r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,(360.+rot_angle))
-    elif rot_angel>360.:
-      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,(rot_angle-360))
+    elif rot_angle>360.:
+      r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,(rot_angle-360.))
     else:
       r,t=rotate.rotate_ne_rt(N[0].data,E[0].data,rot_angle)
     dir="orthogonality/%03d" % (angle)
