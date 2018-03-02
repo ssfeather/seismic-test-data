@@ -1,0 +1,4 @@
+Data in this test is trimmed to time region 7:00:00 to 8:00:00.
+Response used is STS-1 Q330HR BH 20.
+There is no direct comparison to a known result, but output is placed
+in a PDF file in test result directory called 'Nine-Noise-Test.pdf'

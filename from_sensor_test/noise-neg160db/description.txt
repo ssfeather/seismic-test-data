@@ -1,0 +1,6 @@
+Check is similar to calculation for 159db self noise test folder; that is,
+the data comes from the same set of stationsi and are trimmed to the same
+hours. However, the noise results are slightly different for the data.
+
+(station and expected psd, noise results)
+TST5 00: -158.68, -159.63

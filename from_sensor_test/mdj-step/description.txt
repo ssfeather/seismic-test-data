@@ -1,0 +1,2 @@
+Step cal test data from MDJ station. Range is 05:00:00 to 05:30:00.
+Expected 367.5 Hz frequency and 0.715 damping.

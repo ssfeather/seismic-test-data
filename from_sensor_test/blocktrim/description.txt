@@ -1,0 +1,4 @@
+This file is used in multiple test cases to make sure that timeseries
+data can be created from it and the data in question has the correct
+parameters. This includes accurate parsing of SNCL data, sample rate, and 
+the actual timeseries data from it.
