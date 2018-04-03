@@ -1,0 +1,3 @@
+Test compares azimuth result for ANMO data to a result based on calculation
+in source python code. The data is not trimmed upon load. The resulting
+angle should be around 15 degrees; expected error is about .4 degrees.:

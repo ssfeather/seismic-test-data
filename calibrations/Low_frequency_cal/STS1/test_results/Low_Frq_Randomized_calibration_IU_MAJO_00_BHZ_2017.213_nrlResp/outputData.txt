@@ -1,0 +1,41 @@
+Initial poles: 
+-0.01234 + 0.01234i;  -0.01234 - 0.01234i (360.03914 s)
+
+
+Fit poles: 
+-0.01233 - 0.01227i;  -0.01233 + 0.01227i (361.28812 s)
+
+
+
+
+
+
+Residuals:
+Initial (nom. resp curve): 1455.161706251913
+Best fit: 1429.6699600215063
+
+
+Iteration count from solver: 12
+Input filenames,  with SEED and RESP files paired as appropriate:
+IU_MAJO_  _BC0
+IU_MAJO_00_BHZ
+STS-1_Q330HR_BH_20
+Residuals weighting:
+    Amplitude: 15058.198051425337
+    Phase: 0.4308749882176093
+
+Time of report generation:
+2017.250.15:24:14
+Data start time:
+2017.213.23:34:28
+Data end time:
+2017.214.07:38:03
+
+
+POLE VARIABLES, AS CSV:
+Init     Fit      Diff     Mean     PctDiff  
+-0.0123  -0.0123  -0       -0.0123  +0.0857  
++0.0123  +0.0123  +0.0001  +0.0123  +0.6101  
+
+
+

@@ -1,0 +1,5 @@
+This test checks that an azimuth solver can correctly identify data that is
+180 degrees out from the reference angle. Initial implementation of the test
+suite azimuth code used an orientation calculation that could be off by 180
+degrees from the original data, due to being invariant to multiplying inputs
+by -1. This test checks that the correction to this works as it should.

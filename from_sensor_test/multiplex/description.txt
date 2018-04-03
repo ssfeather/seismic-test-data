@@ -1,0 +1,4 @@
+This is a multiplexed seed file with data from IU_ANMO_00 channels.
+A test makes sure that all 3 channels data can be found in this file.
+These channels are labeled LH1, LH2, and LHZ; full name checking is done
+by seeing if, i.e., "IU_ANMO_00_LH1" exists in data names in the file.

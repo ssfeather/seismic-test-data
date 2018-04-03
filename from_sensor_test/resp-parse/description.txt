@@ -1,0 +1,6 @@
+Files here are used to test that the correct gain, P/Z, normalization, etc.
+values are gotten when reading in a response file.
+One file is used to check that multi-epoch responses only use data from
+the last epoch.
+Some response tests use responses included as part of the test suite's
+embedded response files and are not included here.

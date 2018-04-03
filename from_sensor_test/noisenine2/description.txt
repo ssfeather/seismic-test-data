@@ -1,0 +1,3 @@
+Data in this test is trimmed to 12:00:00 to 13:00:00. No direct reference is
+used, but data is output into a PDF file in test result directory with name
+"Nine-Noise-Test-2.pdf" for verifying result

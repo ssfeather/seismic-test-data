@@ -1,0 +1,8 @@
+Test data from TST5/6 used to verify accuracy of self-noise calculations.
+Results trimmed to within 0:59:59.994 to 7:00:00. Single-component calc.
+Here are respectively the PSD and noise expected results for each input:
+TST5 00_LH0: -157.64, -158.53
+TST5 10_LH0: -159.05, -160.79
+TST6 00_LH0: -155.56, -156.33
+
+All data uses a T-Compact response (Q330HR, BH-40) to get PSD estimations

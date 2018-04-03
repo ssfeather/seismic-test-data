@@ -1,0 +1,5 @@
+Data here uses time region from 36 to 41 minutes past hour of cal.
+The response has one pole conjugate pair that is fit. It is compared to
+a result from python code with appx. -3.518E1 +/- 7.122E1i expected.
+Result of fit and comparison to best-fit curve output as 
+"Random-Calib-Test-1.pdf".

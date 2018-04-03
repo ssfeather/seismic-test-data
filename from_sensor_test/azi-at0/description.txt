@@ -1,0 +1,3 @@
+This tests data that is located at the same orientation as reference. That is, the azimuth calculation using this data should be at or very close to 0.
+It is mainly used to ensure that circular mean is calculated correctly in the azimuth subroutines.
+Specific trimming is probably not necessary but the test case implementing this check restricts the data from 12:00 to 14:00.

@@ -1,0 +1,3 @@
+Data here uses 00 data as references for orientation and 10 as test.
+Data trim is between 07:00:00 and 13:00:00. The result should show an
+internal angle of 94 degrees between the two test sensors.

@@ -1,0 +1,4 @@
+Data here uses the given channel 00 data as first input, 10 as second.
+Trim is from 10:00:00 to 14:00:00.
+Resps are respective (note that 00 RESP has gain x100 of normal amount)
+Expected result for gain should be ~11714.
