@@ -1,15 +1,15 @@
 {
-  "name": "sprockets",
+  "name": "seismic-test-data",
   "organization": "U.S. Geological Survey",
   "description": "Seismic Processing Test Data Set",
   "status": "Early development",
   "homepage": "REPOSITORY_HOMEPAGE",
-  "downloadURL": "https://code.usgs.gov/asl/sprockets.zip",
+  "downloadURL": "https://code.usgs.gov/asl/seismic-test-data.zip",
 
   "openSourceProject": 1,
   "license": "Public Domain",
   "vcs": "git",
-  "repository": "https://github.com/asl/sprockets.git",
+  "repository": "https://code.usgs.gov/asl/seismic-test-data.git",
 
   "tags": [
     "Seismometer",
@@ -22,10 +22,10 @@
   ],
 
   "contact": {
-    "name": "Kimberly Schramm",
-    "email": "kschramm@usgs.gov"
+    "name": "James Holland",
+    "email": "jholland@usgs.gov"
   },
   "updated": {
-    "metadataLastUpdated": "8/15/2017"
+    "metadataLastUpdated": "4/03/2018"
   }
 }
