@@ -1,4 +1,4 @@
-# SPROCKETS (Seismic Processing Test Data Set)
+# Seismic Test Data
 
 ## Description
 
@@ -51,3 +51,4 @@ are being provided to meet the need for timely best science. The data and softwa
 received final approval by the U.S. Geological Survey (USGS) and are provided on the 
 condition that neither the USGS nor the U.S. Government shall be held liable for any 
 damages resulting from the authorized or unauthorized use of the data or software.
+
