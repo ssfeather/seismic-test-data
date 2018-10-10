@@ -1,4 +1,7 @@
-Data here uses the given channel 00 data as first input, 10 as second.
+Data here uses the given channel 00 data as first set of inputs, 10 as second.
+This is for six-input self noise in sensor suite, so order should be 1-2-Z for each.
 Trim is from 10:00:00 to 14:00:00.
-Resps are respective (note that 00 RESP has gain x100 of normal amount)
-Expected result for gain should be ~11714.
+Resps are respective.
+Expected result for gain should be ~1143 for north-facing data input (using first set of data as reference).
+This data is used in another test where the data is loaded with 10 first but with
+the 00 data still used as rotation and gain references; the results should be the same.
