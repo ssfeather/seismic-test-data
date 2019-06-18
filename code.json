@@ -3,14 +3,26 @@
     "name": "seismic-test-data",
     "organization": "U.S. Geological Survey",
     "description": "Seismic Processing Test Data Set",
-    "status": "Early development",
-    "homepage": "REPOSITORY_HOMEPAGE",
-    "downloadURL": "https://code.usgs.gov/asl/seismic-test-data.zip",
+    "version": "1.0",
+    "status": "Development",
 
-    "openSourceProject": 1,
-    "license": "Public Domain",
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": "https://code.usgs.gov/asl/seismic-test-data/blob/master/LICENSE.md"
+        }
+      ]
+    },
+
+    "homepageURL": "https://code.usgs.gov/asl/seismic-test-data/",
+    "downloadURL": "https://code.usgs.gov/asl/seismic-test-data/archive/master.zip",
+    "disclaimerURL": "https://code.usgs.gov/asl/seismic-test-data/blob/master/DISCLAIMER.md",
+    "repositoryURL": "https://code.usgs.gov/asl/seismic-test-data.git",
     "vcs": "git",
-    "repository": "https://code.usgs.gov/asl/seismic-test-data.git",
+
+    "laborHours": 100,
 
     "tags": [
       "Seismometer",
@@ -19,15 +31,18 @@
     ],
     "languages": [
       "SEED",
-      "Python"
+      "Python",
+      "Development",
+      "Java"
     ],
 
     "contact": {
       "name": "James Holland",
       "email": "jholland@usgs.gov"
     },
-    "updated": {
-      "metadataLastUpdated": "4/03/2018"
+
+    "date": {
+      "metadataLastUpdated": "2019-06-18"
     }
   }
 ]
